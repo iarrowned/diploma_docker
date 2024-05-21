@@ -1,0 +1,30 @@
+{
+    "name": "kirill/timwork.ru",
+    "autoload": {
+        "psr-4": {
+            "Entity\\": "src/Entity",
+            "Tools\\": "src/Tools",
+            "ActionManager\\": "src/ActionManager",
+            "Interface\\": "src/Interface",
+            "Response\\": "src/Response"
+        }
+    },
+    "authors": [
+        {
+            "name": "Кирилл",
+            "email": "14krabik14@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "symfony/var-dumper": "^6.2"
+    },
+    "require": {
+        "ext-pdo": "*",
+        "doctrine/orm": "*",
+        "symfony/yaml": "*",
+        "symfony/cache": "*",
+        "doctrine/annotations": "*",
+        "symfony/dotenv": "^6.3"
+    }
+}

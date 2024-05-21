@@ -1,0 +1,5 @@
+/vendor
+*.conf
+vendor/*
+.idea/*
+.env
